@@ -20,5 +20,8 @@ public class Main {
         miPizza = new BuilderPizza().setTipoMasa(FINA).setSize(SMALL).build();
 
         System.out.println(miPizza.toString());
+
+        Pizzas miPizza2 = new BuilderPizza().setSize(BIG).setTipoMasa(FINA).setRelleno(true).build();
+        System.out.println(miPizza2.toString());
     }
 }
